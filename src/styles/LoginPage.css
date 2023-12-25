@@ -1,0 +1,47 @@
+.login {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    display: flex;
+    width: 225px;
+}
+
+.inputBox input {
+    position: relative;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+.inputBox label {
+    position: absolute;
+    font-size: 14px;
+    cursor: text;
+    transition: 0.2s;
+}
+.inputBox input:valid ~ label,
+.inputBox input:focus ~ label {
+    transform: translateY(-16px);
+    font-size: 11px;
+}
+.loginBtn {
+    width: 90px;
+    font-size: 15px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    padding: 3px 6px;
+    margin: 0 15% auto;
+    box-shadow: 1.5px 2px 3px black;
+    transition: 0.3s;
+}
+.loginBtn:hover {
+    box-shadow: 2.5px 4px 6px black;
+    opacity: 0.9;
+}
+

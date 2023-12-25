@@ -1,0 +1,22 @@
+.product a {
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+}
+.product a:hover {
+    color: gray;
+}
+.product span {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.products a:hover {
+    text-decoration: underline;
+    color: #555;
+}

@@ -1,0 +1,39 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-left: 3px;
+    transition: 0.3s;
+}
+
+.menu a.active {
+    border-left: 10px solid black;
+}
+
+.menu a.active:hover {
+    transform: translateX(0);
+}
+
+.menu a:hover {
+    transform: translateX(15px);
+}
+
+.menu li:nth-child(1) a {
+    border-color: darkgreen;
+}
+.menu li:nth-child(2) a {
+    border-color: darkred;
+}
+.menu li:nth-child(3) a {
+    border-color: darkblue;
+}

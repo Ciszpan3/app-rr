@@ -1,0 +1,15 @@
+.article * {
+    margin: 0;
+    padding: 0;
+}
+.article h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.article p {
+    margin-top: 10px
+}
+.article span {
+    font-size: 13px;
+    font-style: italic;
+}
