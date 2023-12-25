@@ -12,7 +12,9 @@ const LoginPage = () => {
                 <input type="text" required id='password'/>
                 <label htmlFor="password">Hasło</label>
             </div>
-            <button className='loginBtn'>Zaloguj</button>
+            <div className='btnBox'>
+                <button className='loginBtn'>Zaloguj</button>
+            </div>
         </div>
 
     );

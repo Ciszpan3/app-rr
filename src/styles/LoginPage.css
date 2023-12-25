@@ -2,16 +2,22 @@
     margin: 50px;
     display: flex;
     flex-direction: column;
+    width: 220px;
 }
 
 .inputBox {
     display: flex;
-    width: 225px;
+    width: 100%;
+}
+.btnBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .inputBox input {
     position: relative;
-    font-size: 17px;
+    font-size: 14px;
     border: none;
     outline: none;
     border-bottom: 1px solid black;
